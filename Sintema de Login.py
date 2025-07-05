@@ -5,8 +5,10 @@
 
 # O programa é relativamente simples e fácil de compreender.
 # Modo de uso:
-# Se introduzires o nome de utilizador correcto, no widget do Nome 
-
+# Se introduzires o nome de utilizador correcto, no widget do "Nome do utilizador" vai mudar de cor dizendo "Utilizador Definido" com a cor de fundo verde.
+# Se introduzires o nome de utilizador incorrecto, o widget do "Nome do utilizador" vai dizer mudar de cor dizendo "Utilizador não definido" com a cor de fundo vermelho e vai cancelar a entry seguinte.
+# Se introduzires o nome de utilizador correcto e a senha incorrecta, o widget "Digite a senha" vai mudar de cor dizendo "Senha Incorrecta com a cor de fundo vermelho;
+# Se introduzires o nome de utilizador correcto e a senha correcta, o widget "Digite a senha" vai mudar de cor dizendo "Senha correcta" com a cor de fundo verde.  
 
 from tkinter import *
 
