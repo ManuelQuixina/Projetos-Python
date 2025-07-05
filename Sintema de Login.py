@@ -26,7 +26,6 @@ janela.resizable(width = False, height = False)
 def mostrar_dados():
     dados_nome = entry_nome.get()
     dados_senha = entry_senha.get()
-    print(dados_nome, dados_senha)
 
     if entry_nome.get() == utilizador:
         label_nome ["text"] = "Utilizador definido"
@@ -43,6 +42,8 @@ def mostrar_dados():
         label_senha ["text"] = "Senha Correta"
         label_senha ["bg"] = cores[3]
         label_senha ["fg"] = cores[1]
+        label_entrar ["text"] = "Login com Sucesso"
+        label_entrar ["bg"] = cores[4]
     else:
         label_senha ["text"] = "Senha Incorreta"
         label_senha ["bg"] = cores[8]
